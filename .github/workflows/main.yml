@@ -9,6 +9,7 @@ on:
 jobs:
   main:
     runs-on: ubuntu-18.04
+    if: github.event.repository.owner.id == github.event.sender.id
     strategy:
       matrix:
         node-version: [12.x]
