@@ -2,7 +2,7 @@ name: daily_bonus
 
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 21 * * *'
   workflow_dispatch:
   #测试使用,取消下面2个#注释,star触发执行actions,如果成功,最好再注释掉,免得别人star就给你签到    
   #watch:
